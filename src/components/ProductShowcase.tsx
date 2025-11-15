@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Star } from "lucide-react";
 import rydeshareImg from "@/assets/rydeshare-app.jpg";
 import gymTrackerImg from "@/assets/gym-tracker-app.jpg";
+import dentAssistImg from "@/assets/dent-assist-app.jpg";
 
 const products = [
   {
@@ -19,6 +20,13 @@ const products = [
     image: gymTrackerImg,
     status: "Live",
     tags: ["Fitness", "Health", "Analytics"],
+  },
+  {
+    name: "Dent Assist",
+    description: "Complete dental practice management system for medical professionals, featuring patient records, appointment scheduling, and treatment tracking.",
+    image: dentAssistImg,
+    status: "Live",
+    tags: ["Healthcare", "Medical", "Practice Management"],
   },
   {
     name: "Project Alpha",
